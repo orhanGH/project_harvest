@@ -4,8 +4,6 @@ Research scripts and Python package for **HARVEST**, a pipeline for detecting an
 
 > **Status:** Archived experimental scripts plus an evolving OCR package. The source and job scripts were reorganized and checked for Python/Bash syntax; the reorganized HPC workflows have **not** been re-run on Marvin. The original experiments and output datasets remain in the original Marvin workspace. This repository does **not** ship source PDFs, manual annotations, model weights, or the original `configs/` files.
 
-## What we did
-
 - **Layout analysis:** PP-DocLayout_plus-L detection on a mixed 74-page dataset; baseline and nine-class threshold experiments (E01–E03).
 - **Low-confidence diagnostics (E04):** inspected table and other region predictions surviving a score cutoff of 0.01 to explain missed annotations.
 - **Table threshold test (E05):** compared table score 0.38 with baseline score 0.50; table recall increased, while table F1 decreased due to extra false positives.
