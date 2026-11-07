@@ -1,0 +1,63 @@
+# Large datasets, original local workspaces and generated artifacts
+/dataset/
+/data/
+/environment/
+/environments/
+/results/
+/runs/
+/exports/
+/output/
+/outputs/
+/models/
+/gold/
+/scripts/            # old local copy: keep on disk but exclude from new repository
+
+# Credentials and local setup
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_ed25519*
+*.p12
+*.pfx
+*.token
+
+# Large files and generated artifacts
+*.pdf
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.xlsx
+*.zip
+*.tar
+*.tar.gz
+*.log
+*.jsonl
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.pdparams
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Preserve the old local scripts without publishing them
+/scripts/
